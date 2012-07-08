@@ -1,6 +1,9 @@
-= testoaster
 
-Description goes here.
+= Testoaster
+
+Some testing goodies for Rails
+
+
 
 == Contributing to testoaster
  
@@ -14,6 +17,6 @@ Description goes here.
 
 == Copyright
 
-Copyright (c) 2012 Victor Pudeyev. See LICENSE.txt for
-further details.
+Copyright (c) 2012 Computational Arts Corporation.
+See LICENSE.txt for further details.
 
