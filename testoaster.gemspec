@@ -25,8 +25,10 @@ Gem::Specification.new do |s|
     "Rakefile",
     "VERSION",
     "lib/testoaster.rb",
+    "test/en.yml",
     "test/helper.rb",
-    "test/test_testoaster.rb"
+    "test/test_testoaster.rb",
+    "testoaster.gemspec"
   ]
   s.homepage = "http://github.com/piousbox/testoaster"
   s.licenses = ["GLP v2"]
