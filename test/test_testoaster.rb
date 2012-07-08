@@ -1,7 +1,11 @@
+
 require 'helper'
 
 class TestTestoaster < Test::Unit::TestCase
-  should "probably rename this file and start testing for real" do
-    flunk "hey buddy, you should probably rename this file and start testing for real"
+  
+  should "test sanity" do
+    assert true
+#    flunk "hey buddy, you should probably rename this file and start testing for real"
   end
+  
 end
