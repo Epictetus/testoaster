@@ -3,6 +3,28 @@
 
 Some testing goodies for Rails
 
+= Functionality of Testoaster
+
+
+This gem is designed for unit and functional tests.
+
+This gem does the following:
+
+ * adds method puts!() that allows you to inspect an element faster. The output (to standard) of puts!() is prepended by "+++ +++" so it is easier to find in logs. The output is .inspect`ed for clarity.
+
+ * adds method puts_each!() that works like puts!() but on a list
+
+ * adds method todo(msg='') that fails with a message
+
+ * suppresses Paperclip attachment warnings
+
+ * adds method assert_layout(layout)
+
+ * adds method t(), which returns your localization information from file en.yml . The scopes of translations must be dot-delimited, for example: t('users.errors.unauthorized')
+
+ * adds method sign_in_path() which always returns '/users/sign_in'
+
+ * adds assert_contains(str) method which seeks the str as a regex in the response body.
 
 
 == Contributing to testoaster
